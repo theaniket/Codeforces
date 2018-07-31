@@ -30,6 +30,7 @@ def print_grid(grid: list):
 def main():
     test_cases = int(input())
     while test_cases > 0:
+        # input number of rows
         rows, columns = map(int, input().split())
         grid = list()
         for i in range(0, rows):
